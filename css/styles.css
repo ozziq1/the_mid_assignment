@@ -1,0 +1,146 @@
+body{
+	font-family: 'i Iyalah', sans-serif;           
+}
+body, ul{
+	margin: 0;
+	padding:0;
+}
+
+h1,h2, .skill-list {
+	font-family: 'i Iyalah', sans-serif;           
+
+}
+
+img{
+	/*this limit width image*/
+	max-width: 100%;
+}
+nav{
+	background-color:black;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+header{
+	top:70px;
+	position: relative;
+	margin-bottom:  210px;
+	background-image: url('/pictures/troy-olson-b17Y2O1P3_E-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 140; 
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 15px;
+	padding:0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+nav ul{
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+
+}
+
+h1{
+	font-size: 100px;
+	line-height: 130%;
+	color: bisque;
+}
+h2{
+	font-size: 30px;
+	line-height: 130%;
+	color: bisque;
+}
+h1, h2{
+	font-weight: normal;
+}
+p{
+	line-height: 150%;
+	color: bisque;
+
+}
+
+ul li{
+	list-style: none;
+	margin: 10px 0;
+	color: bisque;
+}
+
+.button{
+	border: 1px solid black;
+	font-size: 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	color:bisque;
+	padding: 10px 20px;
+	margin-top:40px;
+	display: inline-block;
+	transition: background 0.5s ease-in-out;
+}
+.button:hover{
+	background:black;
+	color: white; 
+
+}
+figcaption{
+	font-size: 10px;
+	margin-top: 10px;
+	color: bisque;
+}
+
+.intro-img{
+	box-shadow:none;
+	margin-top: 30px;
+
+}
+
+.skill-list {
+	text-align: center;
+	font-size: 50px;
+	line-height: 150%;
+	margin-bottom:130px;
+	background-image: url(/pictures/img1.jpg);
+	background-position-y: -50px;
+	padding: 100px;
+}
+.project{
+	margin: 30px 0; 
+	padding: 50px;
+	background-image: url(/pictures/img1.jpg);
+}
+
+.blue{
+	background-image: url(/pictures/img2.jpg);
+}
+
+.project .button{
+	margin-top: 10px;
+}
+footer{
+	text-align: center;
+	margin:100px;
+
+}
+footer h2{
+	font-size: 50px;
+	margin-bottom:100px;
+	background-image: url(/pictures/img2.jpg); 
+	padding: 50px;
+}
+.right-alignment{
+	text-align: right;
+}
+
+nav li a{
+	text-decoration: none;
+	color:bisque;
+}
+nav li a:hover{
+	text-decoration: underline;
+}
